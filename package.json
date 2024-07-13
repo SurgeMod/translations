@@ -1,0 +1,14 @@
+{
+    "name": "translations",
+    "version": "1.0.0",
+    "description": "Open-source translations for Surge's Launcher",
+    "license": "MIT",
+    "type": "module",
+    "scripts": {
+        "lint": "eslint ."
+    },
+    "devDependencies": {
+        "eslint": "^9.7.0",
+        "eslint-plugin-json": "^4.0.0"
+    }
+}

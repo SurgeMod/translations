@@ -1,0 +1,31 @@
+name: New Translation
+description: Create a new translation for the Surge Launcher
+labels: [translation]
+title: '[Translation] <title>'
+
+body:
+    - type: input
+      id: language
+      attributes:
+          label: Language
+          description: The language of the translation
+          placeholder: English
+      validations:
+          required: true
+
+    - type: textarea
+      id: explanation
+      attributes:
+          label: Explanation
+          description: A brief explanation of why you would like this translation
+          placeholder: This translation is for the English language because...
+      validations:
+          required: true
+
+    - type: checkboxes
+      id: implementation
+      attributes:
+          label: Implementation
+          options:
+              - label: I am willing to implement this translation myself
+                required: true
